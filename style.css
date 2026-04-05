@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #8e7754;
+    font-size: 30px;
+}
+h3{
+    color: #8e7754;
+    font-size: 30px;
+}
+.container{
+width: 90%;
+margin: auto;
+}
+.home{
+    background-image: url(WhatsApp\ Image\ 2025-11-03\ at\ 22.06.57_e3599d20.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo{
+    width:13% ;
+    margin-top: 20px;
+    background-color: transparent;
+
+    
+}
+
+.navlogo img{
+    width: 100%;
+
+}
+.navlinks ul{
+    margin-top: 10px;
+    display: flex;
+
+}
+.navlinks ul li{
+    padding: 15px;
+    list-style-type: none;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: larger;
+}
+.clearfix{
+    clear: both;
+}
+
+.home-cap{
+    text-align: center;
+    margin-top: 70px;
+    color: azure;
+}
+.home-cap p{
+    font-size: 23px;
+
+}
+.home-cap h1{
+    font-size: 55px;
+    margin: 20px 0;
+}
+.home-cap .btn{
+    padding: 17px;
+    color: azure;
+    margin: 20px 5px;
+    font-size: 17px;
+        border:none;
+    border-radius: 10px;
+}
+.home-cap .btn1{
+    background-color:brown;
+}
+.home-cap .btn2{
+    background-color: transparent;
+    border: 2px white solid;
+}
+.about{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+display: flex;
+justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.aboutimg{
+    width: 40%;
+}
+.aboutimg img{
+    width: 100%;
+}
+.about-cap{
+    margin-top: 20px;
+width: 50%;
+text-align: center;
+}
+.about-cap p{
+    margin: 20px 0;
+    color: black;
+
+}
+.about-list{
+    text-align: left;
+}
+.about-list ul li{
+    padding: 15px;
+}
+
+.baker{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 2%;
+}
+.bakerimg{
+    width: 40%;
+}
+.bakerimg img{
+    width: 100%;
+}
+.bakercap{
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+}
+.bakercap p{
+    margin: 20px 0;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.gallery .gallery2 {
+    display: flex;
+    padding: 20px 0;
+}
+
+.gallery2 .meal{
+
+    width: 32%;
+}
+.meal img{
+    width: 100%;
+}
+.inner{
+    padding: 30px;
+
+}
+ .btn1{
+
+    transition-duration: 2s;
+}
+.btn1:hover{
+    background-color: black;
+    color: azure;
+    border-radius: 50px;
+    cursor: pointer;
+} 
+.btn2{
+    transition-duration: 2s;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: azure;
+    border-radius: 50px;
+    cursor: pointer;
+} 
+
+
+.get-in-touch{
+    
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+.contact-content{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.contact-item{
+    width: calc(50% - 20px);
+    padding: 20px;
+}
+.get-in-touch h3{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.contact-form form input,
+.contact-form form textarea{
+
+    width: 90%;
+    padding: 15px;
+    margin-bottom:15px ;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contact-item h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #8e7754;
+}
+.contact-item p{
+    margin: 10px 0;
+    color: #666;
+    font-size: 20px;
+}
+.btn3{
+    transition: 2s;
+    padding: 15px 30px;
+    font-size: 15px;
+    
+}
+.btn3:hover{
+ border-radius:10px ;
+    color:#8e7754;
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-col{
+    width: calc(33.3333% - 20px);
+}
+   footer{
+    background-color: #8e7754;
+    color: white;
+    padding: 20px 0 50px 0; 
+}
+.footer-col ul{
+    list-style-type: none;
+}
+.footer-col ul li{
+    padding: 5px 0;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-logo img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer-col h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-col .social-icon{
+    color: white;
+}  

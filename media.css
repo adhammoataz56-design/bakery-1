@@ -1,0 +1,55 @@
+@media screen and (max-width:599px){
+    .bread{
+        width: 100%;
+    }
+    .navlinks ul{
+        display: none;
+    }
+    .nav.container{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about img{
+        width: 250%;
+    }
+    .about-cap{
+        width: 100%;
+    }
+    .baker{
+        flex-direction: column;
+    }
+    .bakerimg{
+        width: 100%;
+    }
+    .bakercap{
+        width: 100%;
+    }
+    .gallery .gallery2{
+        flex-direction: column;
+    }
+    .gallery2 .meal{
+        width: 100%;
+    }
+    .contact-content{
+        flex-direction: column;
+
+    }
+    form{
+        width: 85%;
+        margin-left: 20px;
+/* width: 85%;    لازم اعدل ف ال width */
+}
+    .contact-item{
+        width: 100%;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-col{
+        width: 100%;
+margin-left: 50px;    }
+ 
+}
+    
